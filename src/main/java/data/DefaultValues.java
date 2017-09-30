@@ -8,7 +8,7 @@ public enum DefaultValues {
 
     private String value;
 
-    DefaultValues (String value) {
+    DefaultValues(String value) {
         this.value = value;
     }
 

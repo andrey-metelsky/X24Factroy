@@ -6,10 +6,6 @@ import org.apache.log4j.Logger;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Random;
 
 public final class Utils {
     protected static final Logger LOGGER = LoggerUtil.getInstance();
@@ -18,9 +14,9 @@ public final class Utils {
     }
 
     public static void storeProductNamesFoFile(CategoryName categoryName, String productsNames) {
-        String fileName = "ProductNamesFor"+categoryName.getValue()+".txt";
+        String fileName = "ProductNamesFor" + categoryName.getValue() + ".txt";
         try {
-            File file = new File("src/test/resources/"+fileName);
+            File file = new File("src/test/resources/" + fileName);
             if (!file.exists()) {
                 file.createNewFile();
             }
