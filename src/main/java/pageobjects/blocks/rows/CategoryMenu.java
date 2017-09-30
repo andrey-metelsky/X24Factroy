@@ -10,6 +10,7 @@ import pageobjects.ProductGrid;
 public class CategoryMenu extends BasePage {
 
     public ProductGrid openCategoryByName(CategoryName categoryName) {
+        LOGGER.info("Opening category with name: " + categoryName);
         getWebDriver().findElement(By.linkText(categoryName.getValue())).click();
         return new ProductGrid();
     }

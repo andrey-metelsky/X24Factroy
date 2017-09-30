@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="393e2d82-2b04-4826-b260-cf9890839a7f" name="Default" comment="" />
+    <list default="true" id="393e2d82-2b04-4826-b260-cf9890839a7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/data/DefaultValues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/lo4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/X24FactoryTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/client/DriverFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/data/CategoryName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/data/Parameters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/pageobjects/BasePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/pageobjects/HomePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/pageobjects/ProductGrid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/pageobjects/blocks/rows/CategoryMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/pageobjects/blocks/rows/ProductBox.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/PaginationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/chromedriver.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/suite/testng_x24factory.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categoriesNames.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/PaginationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/x24factory_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/x24factory_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/x24factory_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/x24factory_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/client/DriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/client/DriverFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageobjects/BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageobjects/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/ProductBox.java" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/ProductBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/suite/testng_x24factory.xml" afterPath="$PROJECT_DIR$/src/test/resources/suite/testng_x24factory.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,29 +71,29 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaginationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PaginationTest.java">
+      <file leaf-file-name="X24FactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/X24FactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="1005" column="19" lean-forward="false" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="-59">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +101,8 @@
       <file leaf-file-name="ProductGrid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="289">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,25 +110,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductBox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/ProductBox.java">
+      <file leaf-file-name="DefaultValues.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/data/DefaultValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebElement.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.5.3/cdd8d11d916774f0394567bc73f9361b41eefc2c/selenium-api-3.5.3-sources.jar!/org/openqa/selenium/WebElement.java">
+      <file leaf-file-name="LoggerUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="148" column="12" lean-forward="false" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,27 +141,39 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/data/CategoryName.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/HomePage.java">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="301">
+              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lo4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/lo4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryMenu.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java">
+      <file leaf-file-name="testng_x24factory.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/suite/testng_x24factory.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -126,10 +181,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getTe</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -302,7 +367,7 @@
         <entry key="D:/AndreyMetelsky/gmail-automation" value="2942836477914" />
         <entry key="D:/New folder/Projects/levi9-youtube" value="2944824472167" />
         <entry key="D:/New folder/Projects/x24factory" value="3013381424684" />
-        <entry key="$PROJECT_DIR$" value="3013390194864" />
+        <entry key="$PROJECT_DIR$" value="3013464871623" />
         <entry key="D:/Repo/dwp-cloud-test-automation" value="2982100182148" />
         <entry key="D:/Repo/dwp-cloud-test-automation-master" value="2981838846000" />
         <entry key="D:/Repo/dwp-cloud-test-automation-master3" value="3005262116898" />
@@ -458,11 +523,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/ProductBox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java" />
         <option value="$PROJECT_DIR$/src/main/java/data/CategoryName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/ProductBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/LoggerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/lo4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/data/DefaultValues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaginationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/X24FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/suite/testng_x24factory.xml" />
       </list>
     </option>
   </component>
@@ -472,6 +550,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -520,6 +599,10 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -559,6 +642,32 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x24factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x24factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -664,6 +773,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -675,15 +788,20 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/Repo/myservice_test-automation" />
   </component>
-  <component name="RunManager" selected="TestNG.PaginationTest.testVerifyPagination (2)">
-    <configuration default="false" name="PaginationTest.testVerifyPagination" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\x24factory\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Projects/x24factory/src/test/resources/suite/testng_x24factory.xml">
+    <configuration default="false" name="X24FactoryTest.testTaskForX24Factory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="x24factory_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaginationTest" />
-      <option name="METHOD_NAME" value="testVerifyPagination" />
+      <option name="MAIN_CLASS_NAME" value="X24FactoryTest" />
+      <option name="METHOD_NAME" value="testTaskForX24Factory" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -703,14 +821,14 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="PaginationTest.testVerifyPagination (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="X24FactoryTest.testTaskForX24Factory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="x24factory_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaginationTest" />
-      <option name="METHOD_NAME" value="testVerifyPagination" />
+      <option name="MAIN_CLASS_NAME" value="X24FactoryTest" />
+      <option name="METHOD_NAME" value="testTaskForX24Factory" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -730,18 +848,45 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="PaginationTest.testVerifyPagination (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="X24FactoryTest.testTaskForX24Factory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="x24factory_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaginationTest" />
-      <option name="METHOD_NAME" value="testVerifyPagination" />
+      <option name="MAIN_CLASS_NAME" value="X24FactoryTest" />
+      <option name="METHOD_NAME" value="testTaskForX24Factory" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="D:/Projects/x24factory/src/test/resources/suite/testng_x24factory.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="x24factory_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suite/testng_x24factory.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
@@ -954,16 +1099,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.PaginationTest.testVerifyPagination" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.PaginationTest.testVerifyPagination (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.PaginationTest.testVerifyPagination (2)" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.X24FactoryTest.testTaskForX24Factory" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.X24FactoryTest.testTaskForX24Factory" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.X24FactoryTest.testTaskForX24Factory" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.D:/Projects/x24factory/src/test/resources/suite/testng_x24factory.xml" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.PaginationTest.testVerifyPagination (2)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.PaginationTest.testVerifyPagination" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.PaginationTest.testVerifyPagination (1)" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.D:/Projects/x24factory/src/test/resources/suite/testng_x24factory.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.X24FactoryTest.testTaskForX24Factory" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.X24FactoryTest.testTaskForX24Factory" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.X24FactoryTest.testTaskForX24Factory" />
       </list>
     </recent_temporary>
   </component>
@@ -981,63 +1128,63 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 18h 50m 15s.xml">
+    <history-entry file="D__Projects_x24factory_src_test_resources_suite_testng_x24factory_xml - 2017.09.30 at 15h 53m 57s.xml">
+      <configuration name="D:/Projects/x24factory/src/test/resources/suite/testng_x24factory.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 14h 57m 05s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 18h 52m 36s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 03m 21s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 18h 53m 59s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 13m 02s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 18h 59m 52s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 17m 59s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 19h 00m 39s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 25m 18s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 19h 36m 33s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 27m 25s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 19h 43m 40s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 34m 42s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.29 at 19h 48m 29s.xml">
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 44m 14s.xml">
       <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination_(1) - 2017.09.29 at 19h 39m 34s.xml">
-      <configuration name="PaginationTest.testVerifyPagination (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PaginationTest_testVerifyPagination_(1) - 2017.09.29 at 19h 41m 33s.xml">
-      <configuration name="PaginationTest.testVerifyPagination (1)" configurationId="TestNG" />
+    <history-entry file="PaginationTest_testVerifyPagination - 2017.09.30 at 15h 45m 33s.xml">
+      <configuration name="PaginationTest.testVerifyPagination" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-188" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="1592" y="-188" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5868887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47658688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.62539023" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42780027" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39646202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27260458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1046,47 +1193,52 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34755462" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/PaginationTest.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/PaginationTest.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/PaginationTest.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/HomePage.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="1005" column="19" lean-forward="false" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1101,37 +1253,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/ProductBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1005" column="19" lean-forward="false" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="554" column="11" lean-forward="false" selection-start-line="554" selection-start-column="11" selection-end-line="554" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/Parameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1139,23 +1330,100 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/data/CategoryName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaginationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/ProductGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/DefaultValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lo4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/blocks/rows/CategoryMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/X24FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suite/testng_x24factory.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ProductNamesForSessel.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

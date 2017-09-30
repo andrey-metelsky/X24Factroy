@@ -1,19 +1,15 @@
 import client.DriverFactory;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 
 public class BaseTest {
 
-    protected WebDriver webDriver = DriverFactory.getInstance().getWebDriver();
-
-    public void setDriver (String browserType, String appURL) {
-        DriverFactory.getInstance().setDriver(browserType, appURL);
+    protected WebDriver getWebDriver() {
+        return DriverFactory.getInstance().getWebDriver();
     }
 
-    public WebDriver getWebDriver() {
-        return this.webDriver;
-    }
-
-    public void tearDown() {
-        DriverFactory.getInstance().getWebDriver().quit();
+    @AfterClass(groups = {"init"}, alwaysRun = true)
+    public void afterClassStop() {
+        DriverFactory.getInstance().tearDown();
     }
 }

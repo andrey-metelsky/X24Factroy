@@ -13,8 +13,7 @@
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-java:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: org.testng:testng:6.9.6" level="project" />
     <orderEntry type="library" name="Gradle: ru.yandex.qatools.htmlelements:htmlelements-java:1.14" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.6.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-api:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-chrome-driver:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-edge-driver:3.5.3" level="project" />

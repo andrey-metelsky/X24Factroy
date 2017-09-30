@@ -11,6 +11,7 @@ public class ProductBox extends BasePage {
     private WebElement productName;
 
     public String getProductName() {
+        LOGGER.info("Getting product name.");
         return productName.getText();
     }
 }

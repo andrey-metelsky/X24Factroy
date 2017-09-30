@@ -24,28 +24,33 @@ public class ProductGrid extends BasePage {
 
     List<ProductBox> productBoxes;
 
-    public ProductGrid verifyQuantityOfProductsPerPage(int quantityOfProducts) {
-        assertEquals(productBoxes.size(), quantityOfProducts);
+    public ProductGrid verifyQuantityOfProductsPerPage(String quantityOfProducts) {
+        LOGGER.info("Verifying that quantity of products is " + quantityOfProducts);
+        assertEquals(productBoxes.size(), Integer.parseInt(quantityOfProducts), "Quantity of products is not expected.");
         return this;
     }
 
     public ProductGrid verifyPaginationInfo(String pagInfo) {
-        assertTrue(paginationInfo.getText().contains(pagInfo));
+        LOGGER.info("Verifying pagination info");
+        assertTrue(paginationInfo.getText().contains(pagInfo), "Pagination info is not expected.");
         return this;
     }
 
     public ProductGrid clickButtonMoreProducts() {
+        LOGGER.info("Clicking button More Products");
         click(btnMoreProducts);
         return this;
     }
 
     public ProductGrid clickButtonNext() {
+        LOGGER.info("Clicking button Next");
         click(btnMoreProducts);
         return this;
     }
 
-    public List<String> getProductsNames(int qtyOfCategories) {
-        List<String> productsNames = productBoxes.subList(0, qtyOfCategories).stream().map(ProductBox::getProductName).collect(Collectors.toList());
+    public List<String> getProductsNames(int qtyOfProducts) {
+        LOGGER.info("Collecting names of first " + qtyOfProducts + " products.");
+        List<String> productsNames = productBoxes.subList(0, qtyOfProducts).stream().map(ProductBox::getProductName).collect(Collectors.toList());
         return productsNames;
     }
 }

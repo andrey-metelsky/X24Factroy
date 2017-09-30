@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="X24Factory" verbose="10" parallel="tests" thread-count="1" group-by-instances="true">
-    <test name="">
-        <classes>
-        </classes>
-    </test>
-</suite>

@@ -1,20 +1,12 @@
 package client;
 
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pageobjects.BasePage;
-
-import java.io.File;
-import java.net.MalformedURLException;
-import java.util.ArrayList;
-import java.util.List;
+import utils.LoggerUtil;
 
 import static java.lang.Thread.currentThread;
-import static org.apache.logging.log4j.LogManager.getLogger;
-import static org.testng.Assert.assertEquals;
 
 public class DriverFactory {
 
@@ -22,18 +14,14 @@ public class DriverFactory {
 
     public static final int TIME_WAIT_SECONDS = 30;
     private static DriverFactory instance = new DriverFactory();
-    private static final Logger LOGGER = getLogger(DriverFactory.class);
+    private static final Logger LOGGER = LoggerUtil.getInstance();
 
     public static DriverFactory getInstance() {
         return instance;
     }
 
-    public WebDriver getWebDriver() {
-        return webDriver;
-    }
-
     public void setDriver(String browserType, String appURL) {
-      try {
+        try {
             switch (browserType) {
                 case "chrome":
                     webDriver = startChrome(appURL);
@@ -64,5 +52,13 @@ public class DriverFactory {
         driver.manage().window().maximize();
         driver.navigate().to(appURL);
         return driver;
+    }
+
+    public WebDriver getWebDriver() {
+        return webDriver;
+    }
+
+    public void tearDown() {
+        webDriver.quit();
     }
 }

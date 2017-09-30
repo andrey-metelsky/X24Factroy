@@ -19,6 +19,5 @@ dependencies {
     compile 'org.seleniumhq.selenium:selenium-java:3.5.3'
     compile 'org.testng:testng:6.9.6'
     compile 'ru.yandex.qatools.htmlelements:htmlelements-java:1.14'
-    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.6.2'
-    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.6.2'
+    compile 'log4j:log4j:1.2.17'
 }
