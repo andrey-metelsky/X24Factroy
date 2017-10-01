@@ -12,7 +12,6 @@ public class HomePage extends BasePage {
     public CategoryMenu openCategoryMenu() {
         LOGGER.info("Opening category menu.");
         click(categoryMenuBtn);
-        waitForVisibility(categoryMenuBtn);
         return new CategoryMenu();
     }
 }
